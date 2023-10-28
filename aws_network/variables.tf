@@ -15,8 +15,8 @@ variable "vpc_cidr" {
 # Default tags
 variable "default_tags" {
   default = {
-    "Owner" = "Solip",
-    "App"   = "Web"
+    # "Owner" = "Solip",
+    # "App"   = "Web"
   }
   type        = map(any)
   description = "Default tags to be appliad to all AWS resources"
@@ -24,7 +24,7 @@ variable "default_tags" {
 
 # Prefix to identify resources
 variable "prefix" {
-  default     = "solip"
+  # default     = "solip"
   type        = string
   description = "Name prefix"
 }
